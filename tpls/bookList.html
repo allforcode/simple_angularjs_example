@@ -1,0 +1,9 @@
+<div class="list-group">
+	<a href="#" class="list-group-item active">
+			Book Titles
+	</a>
+	<a ng-repeat="book in books" href="#" class="list-group-item"
+		 ng-click="getBookDetail(book.title)"
+		 ng-bind="book.title">
+	</a>
+</div>

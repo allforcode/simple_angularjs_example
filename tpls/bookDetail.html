@@ -1,0 +1,8 @@
+<div class="panel panel-primary rounded"  ng-hide="curBook == null">
+	<div class="panel-heading" ng-bind="curBook.title"></div>
+	<div class="panel-body">
+		<strong>Author:</strong> <span class="text-primary" ng-bind="curBook.author"></span>
+		<hr>
+		<p ng-bind-html="renderHTML(curBook.body)"></p>
+	</div>
+</div>
