@@ -1,5 +1,5 @@
 var bookApp = angular.module('bookApp', ['ngRoute'])
-		.controller('BookCtrl', function($scope, $http, $filter, $routeParams, $sce) {
+		.controller('BookCtrl', function($scope, $http, $filter, $sce) {
 
 			$scope.template = {
 				'list':'tpls/bookList.html',
